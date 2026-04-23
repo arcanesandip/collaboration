@@ -39,7 +39,7 @@ When you fork, you get your **own personal copy** of the project to work in safe
 1. Make sure you're **logged into GitHub**
 2. Go to the original repository page
 3. Click the **Fork** button at the top-right corner of the page
-4. Click **Create fork** — done! You now have your own copy at `github.com/YOUR_USERNAME/collabration-test`
+4. Click **Create fork** — done! You now have your own copy at `github.com/YOUR_USERNAME/collabration`
 
 ---
 
@@ -50,7 +50,7 @@ When you fork, you get your **own personal copy** of the project to work in safe
 Open your terminal and run:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/collabration-test.git
+git clone https://github.com/YOUR_USERNAME/collabration.git
 ```
 
 > ⚠️ **Replace `YOUR_USERNAME`** with your actual GitHub username!
@@ -58,7 +58,7 @@ git clone https://github.com/YOUR_USERNAME/collabration-test.git
 Then move into the project folder:
 
 ```bash
-cd collabration-test
+cd collabration
 ```
 
 ---
@@ -68,7 +68,7 @@ cd collabration-test
 > **Why do this?** So you can pull in future updates from the original project into your fork.
 
 ```bash
-git remote add upstream https://github.com/ORIGINAL_OWNER/collabration-test.git
+git remote add upstream https://github.com/ORIGINAL_OWNER/collabration.git
 ```
 
 > ⚠️ **Replace `ORIGINAL_OWNER`** with the username of whoever owns the original repo.
@@ -146,7 +146,7 @@ If it asks for your username and password — use your GitHub login. If you have
 
 > **What is a Pull Request (PR)?** It's you saying to the original owner: *"Hey, I made some changes — please review and merge them!"*
 
-1. Go to **your fork** on GitHub: `github.com/YOUR_USERNAME/collabration-test`
+1. Go to **your fork** on GitHub: `github.com/YOUR_USERNAME/collabration`
 2. You'll see a yellow banner saying **"This branch is 1 commit ahead"** — click **"Contribute"** → **"Open Pull Request"**
 3. Make sure it says:
    - **base repository**: original repo → `main`
@@ -187,7 +187,7 @@ git push origin main
 → Make sure you're pushing to YOUR fork (`origin`), not the original (`upstream`)
 
 **"fatal: not a git repository"**
-→ Make sure you ran `cd collabration-test` to enter the folder first
+→ Make sure you ran `cd collabration` to enter the folder first
 
 **JSON looks broken after editing**
 → Check every name has `"quotes"` and a `,` comma after it (except the very last one)
