@@ -2,7 +2,7 @@
 
 > A simple collaborative website where **anyone** can add their name — even if you've never used Git before! Follow this guide step by step and you'll be done in 5 minutes. 🎉
 
-<img width="3410" height="1921" alt="cont" src="https://github.com/user-attachments/assets/33697f24-26a6-4a99-ab3c-628d852df031" />
+<img width="3410" height="1921" alt="cont" src="https://github.com/user-attachments/assets/792e390e-a699-4cef-b43b-964f89a232c9" />
 
 
 ---
