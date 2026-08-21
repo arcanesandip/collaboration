@@ -1,6 +1,6 @@
 # Contributors List 👥
 
-> A simple collaborative website where **anyone** can add their name — even if you've never used Git before! Follow this guide step by step and you'll be done in 5 minutes. 🎉
+> A simple collaborative website where **anyone** can add their name — even if you've never used Git before! Follow this step-by-step guide, and you'll be done in about 5 minutes. 🎉
 
 <img width="3410" height="1921" alt="cont" src="https://github.com/user-attachments/assets/792e390e-a699-4cef-b43b-964f89a232c9" />
 
@@ -42,7 +42,7 @@ When you fork, you get your **own personal copy** of the project to work in safe
 1. Make sure you're **logged into GitHub**
 2. Go to the original repository page
 3. Click the **Fork** button at the top-right corner of the page
-4. Click **Create fork** — done! You now have your own copy at `github.com/YOUR_USERNAME/collabration`
+4. Click **Create fork** — done! You now have your own copy at `github.com/YOUR_USERNAME/collaboration`
 
 ---
 
@@ -53,7 +53,7 @@ When you fork, you get your **own personal copy** of the project to work in safe
 Open your terminal and run:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/collabration.git
+git clone https://github.com/YOUR_USERNAME/collaboration.git
 ```
 
 > ⚠️ **Replace `YOUR_USERNAME`** with your actual GitHub username!
@@ -61,7 +61,7 @@ git clone https://github.com/YOUR_USERNAME/collabration.git
 Then move into the project folder:
 
 ```bash
-cd collabration
+cd collaboration
 ```
 
 ---
@@ -71,12 +71,12 @@ cd collabration
 > **Why do this?** So you can pull in future updates from the original project into your fork.
 
 ```bash
-git remote add upstream https://github.com/ORIGINAL_OWNER/collabration.git
+git remote add upstream https://github.com/ORIGINAL_OWNER/collaboration.git
 ```
 
 > ⚠️ **Replace `ORIGINAL_OWNER`** with the username of whoever owns the original repo.
 
-Check it worked (optional):
+Check that it worked (optional):
 ```bash
 git remote -v
 ```
@@ -141,7 +141,7 @@ git commit -m "Add YourName"
 git push origin main
 ```
 
-If it asks for your username and password — use your GitHub login. If you have 2FA enabled, you'll need a [Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) instead of your password.
+If Git asks for your username and password, enter your GitHub username. For the password, use a [Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) instead of your GitHub account password.
 
 ---
 
@@ -149,7 +149,7 @@ If it asks for your username and password — use your GitHub login. If you have
 
 > **What is a Pull Request (PR)?** It's you saying to the original owner: *"Hey, I made some changes — please review and merge them!"*
 
-1. Go to **your fork** on GitHub: `github.com/YOUR_USERNAME/collabration`
+1. Go to **your fork** on GitHub: `github.com/YOUR_USERNAME/collaboration`
 2. You'll see a yellow banner saying **"This branch is 1 commit ahead"** — click **"Contribute"** → **"Open Pull Request"**
 3. Make sure it says:
    - **base repository**: original repo → `main`
@@ -190,7 +190,7 @@ git push origin main
 → Make sure you're pushing to YOUR fork (`origin`), not the original (`upstream`)
 
 **"fatal: not a git repository"**
-→ Make sure you ran `cd collabration` to enter the folder first
+→ Make sure you ran `cd collaboration` to enter the folder first
 
 **JSON looks broken after editing**
 → Check every name has `"quotes"` and a `,` comma after it (except the very last one)
@@ -220,5 +220,8 @@ Open `index.html` in your browser to see the full contributors list rendered as 
 
 ---
 
+## About
 
+A simple collaborative website where anyone can add their name to learn how to use Git and GitHub.
 
+---
